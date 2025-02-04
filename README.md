@@ -122,11 +122,6 @@ You can extend **RJ45-DoorSensor** with:
 
 We welcome contributions! 🎉  
 
-🔹 **Fork** the repository  
-🔹 **Create** a new branch (`git checkout -b feature/my-feature`)  
-🔹 **Commit** your changes  
-🔹 **Open a Pull Request**  
-
 ---
 
 ## 📩 Contact  
