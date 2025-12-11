@@ -70,16 +70,16 @@
 🔹 **When the door is closed**, the circuit remains **closed** ✅.  
 🔹 **When the door is opened**, the circuit breaks ❌ → Port goes **DOWN**.  
 
-### 📟 **Step 3: Configure the Switch**  
+### 📟 **Step 3: Configure the Switch / Router**  
 
 ```bash
-interface FastEthernet0/1
-  no shutdown
-  speed 10
-  duplex half
-  spanning-tree portfast
-  switchport mode access
-  no keepalive
+!
+interface GigabitEthernet7
+no ip address
+duplex full
+speed 100
+end
+!
 ```
 
 🚀 **Done!** Now, whenever the door is opened, the port will go **DOWN**. You can set alerts via **SNMP** or **Syslog**! 📡🔔
